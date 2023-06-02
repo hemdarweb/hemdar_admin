@@ -3,9 +3,11 @@ import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div style={{background:'red',textAlign:'center'}}>
       <Link href='/posts'>
-      Post
+        <h1>
+          Post
+        </h1>
       </Link>
     </div>
   )
